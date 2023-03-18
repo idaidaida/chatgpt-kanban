@@ -1,0 +1,52 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    background-color: #1c1c1e;
+  }
+  
+  .navbar {
+    background-color: #ff00f7;
+  }
+  
+  .card {
+    background-color: #00ff9c;
+    color: #1c1c1e;
+    margin-bottom: 15px;
+    border: 1px solid #dee2e6;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+  }
+  
+  .card .card-body .description {
+    color: #6c757d;
+  }
+  
+  .add-item-btn {
+    width: 100%;
+    margin-bottom: 15px;
+    background-color: #ff9900;
+    border-color: #ff9900;
+  }
+  
+  .add-item-btn:hover {
+    background-color: #e68a00;
+    border-color: #e68a00;
+  }
+  
+  .btn-danger {
+    background-color: #e600ac;
+    border-color: #e600ac;
+  }
+  
+  .btn-danger:hover {
+    background-color: #cc0099;
+    border-color: #cc0099;
+  }
+  
+  
+  .column-title {
+    margin-bottom: 1rem;
+    color: #ffffff; /* Change the text color to white */
+  }
+  
+  h4 {
+    color: #ffffff; /* Change the text color to white */
+  }

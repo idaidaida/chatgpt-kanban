@@ -1,0 +1,38 @@
+.navbar {
+    background-color: #6c757d;
+  }
+  
+  .card {
+    background-color: #f8f9fa;
+    color: #212529;
+    margin-bottom: 15px;
+    border: 1px solid #dee2e6;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.05);
+  }
+  
+  .card .card-body .description {
+    color: #6c757d;
+  }
+  
+  .add-item-btn {
+    width: 100%;
+    margin-bottom: 15px;
+    background-color: #6c757d;
+    border-color: #6c757d;
+  }
+  
+  .add-item-btn:hover {
+    background-color: #5a6268;
+    border-color: #5a6268;
+  }
+  
+  .btn-danger {
+    background-color: #dc3545;
+    border-color: #dc3545;
+  }
+  
+  .btn-danger:hover {
+    background-color: #c82333;
+    border-color: #c82333;
+  }
+  
