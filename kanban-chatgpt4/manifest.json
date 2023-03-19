@@ -1,0 +1,22 @@
+{
+    "name": "Kanban App",
+    "short_name": "Kanban",
+    "description": "A simple Kanban board application",
+    "start_url": "index.html",
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "theme_color": "#343a40",
+    "icons": [
+      {
+        "src": "fish_tako.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      },
+      {
+        "src": "fish_tako.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      }
+    ]
+  }
+  
