@@ -7,37 +7,6 @@ $(document).ready(function () {
     initKanbanBoard();
   
     function initDummyData() {
-        // const dummyCards = [
-        //     {
-        //         title: "Task 1",
-        //         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-        //         tags: ["Tag 1", "Tag 2"]
-        //     },
-        //     {
-        //         title: "Task 2",
-        //         description: "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-        //         tags: ["Tag 2", "Tag "]
-        //     }
-        //   ];
-        //   for (const cardData of dummyCards) {
-        //     addCard("todo", cardData.title, cardData.description, cardData.tags);
-        //   }
-        
-        //   const dummyCards2 = [
-        //     {
-        //         title: "Task 3",
-        //         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-        //         tags: ["Tag 3", "Tag 3"]
-        //     },
-        //     {
-        //         title: "Task 4",
-        //         description: "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-        //         tags: ["Tag 4", "Tag 4"]
-        //     }
-        //   ];
-        //   for (const cardData of dummyCards2) {
-        //     addCard("done", cardData.title, cardData.description, cardData.tags);
-        //   }
         loadFromLocalStorage();
     }
   
@@ -47,20 +16,12 @@ $(document).ready(function () {
         $(".add-card").on("click", openAddCardModal);
         $("#saveCard").on("click", saveCard);
   
-        // Make the board columns sortable
-        // $(".board-column").sortable({
-        //     connectWith: ".board-column",
-        //     placeholder: "card-placeholder",
-        //     tolerance: "pointer",
-        //     receive: function (event, ui) {
-        //         // Update card status on drop
-        //     }
-        // });
         const columns = document.querySelectorAll(".board-column");
         columns.forEach((column) => {
           new Sortable(column, {
             group: "shared",
             animation: 150,
+            handle: '.card', // Add this line to exclude the "Add Card" button from being draggable
             onEnd: function (event) {
               const oldColumnId = event.from.getAttribute("id");
               const newColumnId = event.to.getAttribute("id");
