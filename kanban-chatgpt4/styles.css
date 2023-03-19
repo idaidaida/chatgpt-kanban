@@ -1,0 +1,50 @@
+
+
+/* Add the following styles */
+.board-column {
+    background-color: #f8f9fa;
+    border-radius: 5px;
+    padding: 15px;
+    min-height: 400px;
+}
+
+.board-column h3 {
+    text-align: center;
+}
+
+.card-placeholder {
+    background-color: #ced4da;
+    border: 3px dashed #6c757d;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    min-height: 100px;
+}
+
+/* Add the following styles */
+.description {
+    color: #6c757d;
+    font-size: 0.9rem;
+}
+
+.badge {
+    margin-right: 5px;
+}
+
+.card {
+    margin-bottom: 5px;
+    border: none; /* Remove the border */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add a box-shadow */
+}
+
+/* Add the following style to position the delete button */
+.card-delete-btn {
+    position: absolute;
+    top: 0.5rem;
+    right: 0.5rem;
+    cursor: pointer;
+  }
+
+  /* Add the following style */
+.card:hover {
+    cursor: pointer;
+}
