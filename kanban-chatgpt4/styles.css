@@ -49,3 +49,11 @@
     cursor: pointer;
 }
 
+.board-column {
+    display: flex;
+    flex-direction: column;
+  }
+  
+.add-card {
+    order: -99;
+}
