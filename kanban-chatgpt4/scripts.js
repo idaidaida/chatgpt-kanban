@@ -29,9 +29,6 @@ $(document).ready(function () {
             },
           });
         });
-        
-        
-        
 
     }
   
@@ -150,6 +147,18 @@ $(document).ready(function () {
       
         // Save the updated cardDataList to local storage
         saveToLocalStorage();
+
+        if (newColumnId === "done") {
+          showConfettiAnimation();
+        }
+      }
+
+      function showConfettiAnimation() {
+        confetti({
+          particleCount: 100,
+          spread: 70,
+          origin: { y: 0.6 },
+        });
       }
       
       
