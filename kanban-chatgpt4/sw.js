@@ -11,7 +11,8 @@ self.addEventListener('install', (event) => {
           'https://cdn.jsdelivr.net/gh/jquery/jquery/dist/jquery.min.js',
           'https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js',
           'https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js',
-          'https://cdn.jsdelivr.net/npm/sortablejs@1.14.0/Sortable.min.js'
+          'https://cdn.jsdelivr.net/npm/sortablejs@1.14.0/Sortable.min.js',
+          'https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js'
         ]);
       })
     );
